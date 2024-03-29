@@ -1,0 +1,73 @@
+{
+   "extensionName": "Minesweeper",
+   "extensionId": "da683eda-ceb7-429d-9c67-2740b6cfb92b",
+   "publisher": "twm",
+   "extensionVersion": [
+      1,
+      0,
+      0
+   ],
+   "templateName": "Indd-PS-AI template",
+   "templateVersion": [
+      1,
+      0,
+      0
+   ],
+   "panelFolder": "C:/Data/AdobeExtension/extension-builder/Extensions/mine-sweeper-extension/",
+   "logFileName": "",
+   "targetEngine": "minesweeper.extension_Engine_Id",
+   "panelName": "Minesweeper",
+   "projectPaths": {
+      "sourceFolder": "01 source",
+      "manifestPath": "./01 source/CSXS",
+      "destinationFolder": "02 build",
+      "defaultConfigPath": "assets/panelCode/defaultConfig.js",
+      "dictionaryPath": "assets/panelCode/dictionary.js",
+      "jsxDictionaryPath": "assets/appCode/libraries/ALL_dictionary.jsx",
+      "configPath": "./01 source/assets/panelCode",
+      "installerFolder": "03 installer",
+      "documentationFolder": "04 documentation",
+      "toolsFolder": "05 tools",
+      "testsFolder": "06 tests",
+      "appLibraries": "01 source/assets/appCode/libraries",
+      "i18nDictionaries": "assets/i18n",
+      "helpFileRelativePath": "assets/help/index.html",
+      "certificateName": "certificate.p12"
+   },
+   "extensionFolder": "minesweeper",
+   "domain": "twm.io",
+   "configFileName": "defaultConfig.js",
+   "manifestFileName": "manifest.xml",
+   "installerData": {
+      "innoScriptConfigFile": "innoScriptConfigFile.iss",
+      "systemExtensionsFolder": "{userappdata}/Adobe/CEP/extensions/",
+      "installerAppId": ""
+   },
+   "tools": {
+      "makeShortcutsScriptFileName": "makeKeyboardShortcuts.jsx",
+      "jsxBinFileName": "jsxbin.jsx"
+   },
+   "targetApps": [
+      {
+         "appName": "Indesign",
+         "targetEngine": "indesign",
+         "appCodeName": "IDSN",
+         "testFilePath": "",
+         "debuggingPort": 63333
+      },
+      {
+         "appName": "PhotoShop",
+         "targetEngine": "photoshop",
+         "appCodeName": "PHXS",
+         "testFilePath": "",
+         "debuggingPort": 63334
+      },
+      {
+         "appName": "Illustrator",
+         "targetEngine": "illustrator",
+         "appCodeName": "ILST",
+         "testFilePath": "",
+         "debuggingPort": 63335
+      }
+   ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtensionManifest Version="4.0" ExtensionBundleId="1f032bba-7e9d-49bf-b629-dbf468f832b6"  ExtensionBundleVersion="1.0.0"
+		ExtensionBundleName="Minesweeper" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ExtensionList>
+		<Extension Id="da683eda-ceb7-429d-9c67-2740b6cfb92b" Version="1.0.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="IDSN" Version="[15.0.0,28.9.0]" />
+			<Host Name="PHXS" Version="[20.0.0,28.9.0]" />
+			<Host Name="ILST" Version="[20.0.0,28.9.0]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="4.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="da683eda-ceb7-429d-9c67-2740b6cfb92b">
+			<DispatchInfo >
+				<Resources>
+					<MainPath>./index.html</MainPath>
+					<ScriptPath>./assets/start.jsx</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>DTools</Menu>
+					<Geometry>
+						<MinSize>
+							<Height>395</Height>
+							<Width>290</Width>
+						</MinSize>
+						<Size>
+							<Height>395</Height>
+							<Width>290</Width>
+						</Size>
+						<MaxSize>
+							<Height>450</Height>
+							<Width>290</Width>
+						</MaxSize>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

@@ -1,0 +1,82 @@
+{
+  "error_handling": {
+    "config_parse_error": "Błąd parsowania pliku konfiguracyjnego!"
+  },
+  "flyout_menu": {
+    "about": {
+      "alert_text": "Rozszerzenie",
+      "alert_title": "Informacje",
+      "menu_text": "Informacje"
+    },
+    "help": {
+      "menu_text": "Wyświetl plik pomocy"
+    },
+    "preferences": {
+      "menu_text": "Ustawienia"
+    },
+    "reset_config": {
+      "menu_text": "Reset konfiguracji"
+    }
+  },
+  "general": {
+    "extension_name": "Minesweeper",
+    "html_country_code": "PL",
+    "html_lang": "pl",
+    "language_name": "Polski"
+  },
+  "panel_ui": {
+    "icon_button__backup_all_documents": "Tworzy kopię zapisanych plików aktywnej książki lub aktywnego dokumentu w katalogu \"BackUp\"",
+    "add_text_in_illustrator_button_tooltip": "Dodaje tekst \"Hello Word\"",
+    "add_text_in_illustrator_text_label": "Dodaj tekst",
+    "add_text_in_indesign_button_tooltip": "Dodaje tekst \"Hello Word\"",
+    "add_text_in_indesign_text_label": "Dodaj tekst",
+    "add_text_in_photoshop_button_text_label": "Dodaj tekst",
+    "add_text_in_photoshop_button_tooltip": "Dodaje tekst \"Hello Word\"",
+    "clear_all_guides_button_tooltip": "Kasuje wszystkie linie pomocnicze w dokumencie.",
+    "convert_selection_to_raster_image_button_tooltip": "Rasteryzuje zaznaczenie.",
+    "create_test_document_button_tooltip": "Tworzy dokument testowy.",
+    "flatten_all_layers_button_tooltip": "Spłaszcza wszystkie warstwy.",
+    "flatten_image_button_tooltip": "Spłaszcza obraz.",
+    "images_tools": "Narzędzia obrazów",
+    "minesweeper_new_game": "Nowa gra",
+    "minesweeper_restart_game": "Uruchom ponownie",
+    "run_list_content_button_text_label": "Dodaj tekst",
+    "run_list_content_button_tooltip": "Dodaje tekst wybrany z listy.",
+    "show_all_button_tooltip": "Pokaż wszystkie ukryte elementy.",
+    "status_bar__extension_version": "Version ",
+    "status_bar__update_available": "Dostępna aktualizacja do v",
+    "test_list_title": "Lista tekstowa",
+    "text_tools_title": "Narzędzia tekstowe",
+    "title_for_panel_button_no_1": "Narzędzia",
+    "title_for_panel_button_no_2": "Lista",
+    "title_for_panel_button_no_3": "Saper",
+    "toolsPanelNo3Title1": "Saper",
+    "tools_panel_no_1_title_for_others": "Uniwersalne",
+    "tools_panel_no_2_list_1_item_1_name": "Hello Word 1",
+    "tools_panel_no_2_list_1_item_2_name": "Hello Word 2",
+    "tools_panel_no_2_list_1_item_3_name": "Hello Word 3",
+    "ungroup_all_button_tooltip": "Rozdziela wszystkie grupy w dokumencie.",
+    "unlock_all_button_tooltip": "Odblokowuje wszystkie elementy w dokumencie."
+  },
+  "sui": {
+    "backup_all_documents__confirm_dialog_cancel": "Nie",
+    "backup_all_documents__confirm_dialog_ok": "Tak",
+    "backup_all_documents__confirm_dialog_text_for_book": "Czy chcesz wykonać kopię wszystkich zapisanych plików aktywnej książki?",
+    "backup_all_documents__confirm_dialog_text_for_document": "Czy chcesz wykonać kopię ostatniej zapisanej wersji aktywnego dokumentu?",
+    "backup_all_documents__confirm_dialog_title": "Uwaga!",
+    "preferences_dialog__button_ok": "Zapisz",
+    "preferences_dialog__cancel": "Anuluj",
+    "preferences_dialog__dialog_title": "Ustawienia",
+    "preferences_dialog__language_interface": "Interfejs",
+    "preferences_dialog__language_panel_title": "Język",
+    "progress_bar__name": "Pasek postępu",
+    "progress_bar__text": "Przetworzone:",
+    "progress_bar_information": "Przetwarzam:",
+    "show_about__close_button": "Zamknij",
+    "show_about__copyright": "Wszelkie prawa zastrzeżone.",
+    "show_about__dialog_title": "Informacje",
+    "show_about__extension_name": "Minesweeper",
+    "show_about__license": "Wersja próbna.",
+    "show_about__www": "twm.io"
+  }
+}

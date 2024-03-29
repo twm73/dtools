@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(./../iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons', emoji;;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: "Source Sans", helvetica, arial, sans-serif;
+    overflow: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.iconButton {
+    margin: 1px;
+    vertical-align: middle;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Material Icons', emoji;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    border-radius: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.iconButton:hover {
+    opacity: 30
+}
+
+.iconButton:active {
+    opacity: 50
+}
+
+.switchablePanelsButton {
+    font-weight: bold;
+    width: fit-content;
+    border-width: 1px;
+    font-size: xx-small;
+}
+
+.switchablePanelsLeftButton {
+    border-radius: 5px 0 0 0;
+}
+
+.switchablePanelsMiddleButton {
+    border-radius: 0 0 0 0;
+}
+
+.switchablePanelsRightButton {
+    border-radius: 0 5px 0 0;
+}
+
+.switchablePanelsButtonOn {
+    background-color: orange;
+    color: black;
+}
+
+.switchablePanelsButtonOff {
+    background-color: #e1e1e1;
+    color: #ababab;
+}
+
+.switchablePanelsContentContainer {
+    border-radius: 0 5px 5px 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    margin: 2px 2px;
+    padding: 0;
+}
+
+.toolsPanelButtonTitle {
+    font-weight: bold;
+    font-size: xx-small;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.textButton {
+    font-weight: bold;
+    font-size: xx-small;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding: 4px 5px;
+    border-radius: 5px;
+}
+
+.textButton:hover {
+    opacity: 30
+}
+
+.textButton:active {
+    opacity: 50
+}
+
+select {
+
+}
+
+.dropDownList {
+    width: 70%;
+    font-size: xx-small;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px 3px 3px 0;
+    background-color: orange;
+    font-weight: bold;
+}
+
+.dropDownList option {
+    padding: 3px;
+    font-size: x-small;
+}
+
+
+#statusBar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-height: 1.5em;
+}
+
+.statusAlert {
+    background-color: red;
+    width: 100%;
+}
+
+.statusOk {
+    background-color: green;
+    width: 100%;
+}
+
+#versionStatus > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-small;
+    color: white;
+    margin: 0;
+    padding: .6em;
+}
+
+
+#tooltip {
+    visibility: hidden;
+    position: absolute;
+    z-index: 999;
+    bottom: 5px;
+    left: 5px;
+    width: 90%;
+    color: black;
+    background-color: white;
+    font-size: .7rem;
+    padding: 5px 5px 5px 7px;
+    border: none;
+    border-radius: 2px;
+}
+
+#gameContainer {
+
+}
+
+
+#gameBoard {
+
+}
+
+#gameButtonsPanel {
+
+}
+
+div.boardSquare {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    vertical-align: middle;
+    padding: 3px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    float: left;
+    line-height: 1;
+    text-transform: none;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    border-radius: 0;
+    background-color: #CDD0D1;
+
+}
+
+.boardIcons {
+    width: 100%;
+    margin: auto 0;
+    font-size: 1.1em;
+    font-family: 'Material Icons', emoji;
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: 'FILL' 0,  'wght' 400,  'GRAD' 0, 'opsz' 24
+}
+
+
+
+.boardText {
+    width: 100%;
+    margin: auto 0;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+div.hidden {
+    background-color: #CDD0D1;
+    color: black;
+    box-shadow: inset 2px 2px 2px 0 rgba(255,255,255,0.84), inset -2px -2px 2px 0 rgba(0,0,0,0.84);
+}
+
+div.visible {
+    background-color: #E3E5E6;
+    color: green;
+}
+
+#gameStatusPanel {
+    height: 40px;
+}
+
+
+#minesCounter {
+    text-align: center;
+    font-weight: 900;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    float: left;
+    height: 30px;
+    margin: 0;
+    background-color: black;
+    color: red;
+    padding: 5px;
+    font-size: 1.3em;
+}
+#face {
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    display: flex;
+    float: left;
+    background-color: #CDD0D1;
+    box-shadow: inset 2px 2px 2px 0 rgba(255,255,255,0.84), inset -2px -2px 2px 0 rgba(0,0,0,0.84);
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 10px;
+
+    font-family: 'Material Icons', emoji;
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: 'FILL' 0,  'wght' 400,  'GRAD' 0, 'opsz' 24
+}
+#time {
+    font-weight: 900;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    color: red;
+    display: flex;
+    float: left;
+    height: 30px;
+    padding: 5px;
+    margin: 0 0 0 10px;
+    background-color: black;
+    font-size: 1.3em;
+}
+#gameButtonsPanel {
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    font-size: 1em;
+}
+#restartButton {
+    border: none;
+    padding: 3px 8px;
+    text-align: center;
+    margin: 0 auto 3px auto;
+    font-size: .8em;
+    background-color: #CDD0D1;
+    box-shadow: inset 2px 2px 2px 0 rgba(255,255,255,0.84), inset -2px -2px 2px 0 rgba(0,0,0,0.84);
+}
+div.wrongMarking {
+    color: red;
+}
+.backupButton {
+    background-color: yellow;
+}
+img.logo {
+    width: 70%;
+    margin: 56px auto;
+    display: block;
+}
